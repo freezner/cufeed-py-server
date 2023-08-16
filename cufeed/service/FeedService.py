@@ -37,8 +37,7 @@ class FeedService:
                     # TODO: keyword는 id로 변경해야함.
                     record = Feeds(title=title, link=link, link_hash=link_hash, vendor=vendor, keyword=keyword)
                     record.save()
-
-                print("title:", title, ", link:", link)
+                    print("title:", title, ", link:", link)
 
             return True
         except ValueError:

@@ -1,5 +1,6 @@
 from django.db import models
 
+
 # Create your models here.
 class Feeds(models.Model):
     id = models.BigAutoField(primary_key=True)
