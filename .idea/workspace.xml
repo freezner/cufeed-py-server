@@ -4,18 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d6014e4-42c7-4ab8-b8fe-3fa6b9a38f13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="2d6014e4-42c7-4ab8-b8fe-3fa6b9a38f13" name="Changes" comment="mod: 코드 정리">
+      <change afterPath="$PROJECT_DIR$/cufeed/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cufeed_app/celeryconf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cufeed/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cufeed/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cufeed/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cufeed/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cufeed/service/FeedService.py" beforeDir="false" afterPath="$PROJECT_DIR$/cufeed/service/FeedService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cufeed/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cufeed/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cufeed_app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/cufeed_app/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/cufeed/service/FeedService.py" root0="FORCE_HIGHLIGHTING" />
@@ -40,6 +51,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -83,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1692204256963</updated>
       <workItem from="1692204258052" duration="337000" />
-      <workItem from="1692204602840" duration="2667000" />
+      <workItem from="1692204602840" duration="17248000" />
     </task>
     <task id="LOCAL-00001" summary="feat: init">
       <created>1692205473358</created>
@@ -92,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692205473358</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="mod: 코드 정리">
+      <created>1692207502990</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692207502990</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +119,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: init" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: init" />
+    <MESSAGE value="mod: 코드 정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="mod: 코드 정리" />
   </component>
 </project>
